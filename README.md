@@ -2,4 +2,5 @@
 
 ## Interviewing
 
-1. [Interview Cake](http://www.interviewcake.com/) - tips and practice problems
+1. [Interview Cake](http://www.interviewcake.com/) - "Kick Serious Butt 
+At Coding Interviews" / tips and practice problems for getting ready for coding interviews
