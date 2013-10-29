@@ -12,3 +12,4 @@ At Coding Interviews" / tips and practice problems for getting ready for coding 
 ### Resources
 
 1. [Free programming books](http://stackoverflow.com/questions/194812/list-of-freely-available-programming-books/392926#392926)
+2. [JavaScript frameworks resources and tutorials](http://resrc.io/list/18/javascript-frameworks/)
