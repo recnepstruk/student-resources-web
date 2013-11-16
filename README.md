@@ -4,6 +4,10 @@
 
 1. [Conversational Git](http://blog.anvard.org/conversational-git/)
 
+### JavaScript
+
+1. [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+
 ### Interviewing
 
 1. [Interview Cake](http://www.interviewcake.com/) - "Kick Serious Butt 
