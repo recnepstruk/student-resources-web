@@ -7,6 +7,7 @@
 ### JavaScript
 
 1. [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+2. [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
 
 ### Interviewing
 
