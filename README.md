@@ -14,6 +14,7 @@
 1. [Interview Cake](http://www.interviewcake.com/) - "Kick Serious Butt 
 At Coding Interviews" / tips and practice problems for getting ready for coding interviews
 2. [10 questions to ask your potential employer](http://www.stefankendall.com/2013/11/10-questions-to-ask-your-potential.html) 
+3. [Codility](http://codility.com/train/)
 
 ### Pair Programming
 
