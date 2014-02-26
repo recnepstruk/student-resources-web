@@ -19,6 +19,7 @@ At Coding Interviews" / tips and practice problems for getting ready for coding 
 ### Pair Programming
 
 1. Why is pairing so hard? Because you each have different expertise, interests, and backgrounds. Not to mention different communication and learning styles! It requires the kool-aid man and the chef to make a dish together. This actually is a huge benefit of pairing, because pairing brings balance, and balance brings learning.
+2. TDD pairing sessions: one person writes a failing test case, while the other person writes the code to make it pass. Switch after each successful TDD cycle.
 
 ### Advice on Pair Programming
 
