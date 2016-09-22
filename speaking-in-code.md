@@ -1,6 +1,7 @@
 # "Speaking in Code" Tips
+> Refer to this document to prepare for the "Speaking in Code " game!
 
-### Declaring variables and defining primitive, array, object, and function values
+## Declaring variables and defining primitive, array, object, and function values
 > Pattern: declare/define a variable `{ name }` with a `{ type }` value `{ value }`
 
 ```javascript
@@ -76,7 +77,7 @@ function anon() { // 1
 
 ```
 
-### Loops
+## Loops
 > For Loop Pattern
 
 1. define a for loop using `{ variable name }` as an iterator with an initial value of `{ value }`,
@@ -120,4 +121,56 @@ while( i < 10 ) {
 
 ```
 
-To be continued...
+## Angular
+> General Angular things
+
+```javascript
+
+// define an angular module named 'MyModule' in camel-case with NO dependencies
+angular.module('MyModule', []);
+
+// define an angular module name 'FormModule' in camel-case depending on the HTTP service.
+angular.module('FormModule', ['$http']);
+
+// declare an angular module named 'Cars' with no dependencies and CHAIN a factory named 'FordFactory' which depends on the HTTP service. Pass in a reference to `FordFactory` for the factory constructor function.
+angular.module('Cars', [])
+    .factory('FordFactory', ['$http', FordFactory]);
+
+// declare an angular module named 'Pets' with no dependencies and CHAIN a controller named 'PetsController' which has no dependencies. Pass in a reference to `Pets` for the controller constructor function.
+angular.module('Cars', [])
+    .controller('PetsController', Pets);
+
+```
+
+## Express
+> General Express things
+
+```javascript
+
+// initialize an express application
+var express = require('express');
+var app = express()
+
+// mount the `morgan` middleware at the `dev` logging level to an express application named `app`
+var logger = require('morgan');
+app.use( logger('dev') );
+
+// 1. define a GET route for the root path
+// 2. in the route handler, end the request
+
+app.get('/', function(req, res){ res.end(); });
+
+// 1. define a POST route for the path '/login'
+// 2. using an ES6 arrow style route handler, check the `req.body.email` property to see if it exists
+// 3. If it exists, send down a successful response as a String 'success!'
+// 4. Else, send down an error response of 'error' with a status of 500
+
+app.post('/login', (req, res)=>{
+    if( req.body.email ) {
+        res.send('success');
+    } else {
+        res.status(500).send('error');
+    }
+});
+
+```
