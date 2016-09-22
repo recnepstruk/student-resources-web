@@ -161,15 +161,16 @@ app.use( logger('dev') );
 app.get('/', function(req, res){ res.end(); });
 
 // 1. define a POST route for the path '/login'
-// 2. using an ES6 arrow style route handler, check the `req.body.email` property to see if it exists
-// 3. If it exists, send down a successful response as a String 'success!'
-// 4. Else, send down an error response of 'error' with a status of 500
+// 2. use an ES6 arrow style route handler,
+// 3. check the `req.body.email` property to see if it exists
+// 4. If it exists, send down a successful response as a String 'success!'
+// 5. Else, send down an error response of 'error' with a status of 500
 
-app.post('/login', (req, res)=>{
-    if( req.body.email ) {
-        res.send('success');
+app.post('/login' /*1*/, (req, res)=>{ // 2
+    if( req.body.email ) { // 3
+        res.send('success'); // 4
     } else {
-        res.status(500).send('error');
+        res.status(500).send('error'); // 5
     }
 });
 
