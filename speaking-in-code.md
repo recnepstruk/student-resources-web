@@ -55,12 +55,12 @@ var library = [{ // 1
     year: 2011
 }]
 
-// 1. define a variable `anon` with a value of an anonymous function
+// 1. define a variable `anon` with a value of an anonymous function, which takes no parameters
 // 2. within the body of that function, return null;
 //
 // Another way to say this:
 //
-// 1. use a function expression to define a variable named `anon` which takes no parameters
+// 1. use a function expression to define a variable named `anon`, which takes no parameters
 // 2. within the body of that function, return null;
 //
 var anon = function() { // 1
@@ -73,7 +73,11 @@ function anon() { // 1
     return null; // 2
 }
 
-//
+// { invoke | call } the anon() function
+anon()
+
+// invoke the `push` method on an array named `nums` and pass the Number 6 as an arugment
+nums.push(6);
 
 ```
 
