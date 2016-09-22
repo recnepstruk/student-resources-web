@@ -35,9 +35,9 @@ var user = { // 1
 }
 
 // 1. define a collection named `library`
-// 2. (several ways to says this):
-//      - the schema for the collection is: title, author, and year
-//      - the properties of the items in this collection are: title, author, and year
+// 2. (two ways to says this):
+//      i.  the schema for the collection is: title, author, and year
+//      ii. the properties of the items in this collection are: title, author, and year
 // 3. The first item in the collection has a
 //      - name property String value of 'Hamlet'
 //      - author property String value of 'Shakespeare'
