@@ -79,8 +79,10 @@ function anon() { // 1
 ### Loops
 > For Loop Pattern
 
-1. define a for loop using `{ variable name }` as an iterator with an initial value of `{ value }` that is bounded by `{ end condition }` and incrementing/decrementing by `{ value }`
-2. within the body of that for loop, `{ code }`
+1. define a for loop using `{ variable name }` as an iterator with an initial value of `{ value }`,
+2. bound by `{ end condition }`
+3. incrementing/decrementing by `{ value }`
+4. within the body of that `for` loop, `{ describe code }`
 
 ```javascript
 
@@ -96,7 +98,7 @@ for( var i = 0; i < 10; i++ ) {
 > While Loop Pattern
 
 1. define a while loop using `{ variable name | expression }` as a condition
-2. within the body of the loop, `{ code }`
+2. within the body of that `for` loop, `{ describe code }`
 
 ```javascript
 
