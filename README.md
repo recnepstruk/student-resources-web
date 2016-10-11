@@ -1,4 +1,4 @@
-# student-resources
+# Student Resources
 
 ### Student Schedule
 > You can access the student schedule to see what lectures happen when by visiting [students.refactoru.com/schedule](http://students.refactoru.com/schedule).
