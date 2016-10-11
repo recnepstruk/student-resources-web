@@ -1,5 +1,8 @@
 # student-resources
 
+### Student Schedule
+> You can access the student schedule to see what lectures happen when by visiting [students.refactoru.com/schedule](students.refactoru.com/schedule).
+
 ### Learning Git
 
 1. [Conversational Git](http://blog.anvard.org/conversational-git/)
@@ -11,9 +14,9 @@
 
 ### Interviewing
 
-1. [Interview Cake](http://www.interviewcake.com/) - "Kick Serious Butt 
+1. [Interview Cake](http://www.interviewcake.com/) - "Kick Serious Butt
 At Coding Interviews" / tips and practice problems for getting ready for coding interviews
-2. [10 questions to ask your potential employer](http://www.stefankendall.com/2013/11/10-questions-to-ask-your-potential.html) 
+2. [10 questions to ask your potential employer](http://www.stefankendall.com/2013/11/10-questions-to-ask-your-potential.html)
 3. [Codility](http://codility.com/train/)
 4. [Front-end Developer Interview Questions](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions)
 
@@ -37,4 +40,3 @@ Pairing
 
 1. [Free programming books](http://stackoverflow.com/questions/194812/list-of-freely-available-programming-books/392926#392926)
 2. [JavaScript frameworks resources and tutorials](http://resrc.io/list/18/javascript-frameworks/)
-
